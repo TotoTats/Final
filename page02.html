@@ -1,10 +1,10 @@
 <!doctype html>
 <html lang="en">
    <!-- 
-      This is my final project, and I tell a story from a film or tv show.
+      This is my final project, and I will tell a story from a film or TV show.
       The story I chose is One Hundred and One Dalmatians (1961), a classic Disney film. My project intends to highlight
-      certain aspects of the film, such as the characters, the story, and the animation style. I'll touch upon why generations
-      of people goes back to older Disney films instead of Disney's modern films after the 2010s.
+      certain aspects of the film, such as the characters, the story, and the animation style. I'll describe why generations
+      of people go back to older Disney films instead of Disney's modern films after the 2010s.
     -->
   <head>
     <meta charset="utf-8">
@@ -73,10 +73,14 @@
       }
       textarea {
         color: #000000;
-        font-size: 16px;
+        font-size: 20px;
         font-family: 'Newsreader', Arial, Helvetica, sans-serif;
+        text-align:justify;
+        text-overflow: clip;
+        overflow: auto;
+        resize: none;
         width: 100%;
-        max-width: 600px;
+        max-width: 900px;
         height: 200px;
         margin: 0 auto;
         margin-top: 20px;
@@ -207,6 +211,8 @@
         max-width: max-content;
         position: center;
         margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 15px;
         display: block;
         box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
       }
@@ -215,6 +221,8 @@
         max-width: max-content;
         position: center;
         margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 15px;
         display: block;
         box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
       }
@@ -260,6 +268,8 @@
   </style>
     <body>
       <div class="content" role="main">
+        <div class="strokeme">
+        <p class="title">One Hundred and One Dalmatians</p>
       </div>
           <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2Cj70OfKouMCHBZTuGd9rL?utm_source=generator" 
           width="15%" height="142" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
@@ -267,19 +277,18 @@
       </div>
      </div>
     </div>
-
-      <p class="center-italic">The bachelor life wasn't very glamorous for Pongo.</p>
+        <img src="assets/img/dalmatians-pongo05.jpg" alt="Pongo" class="scaleA" width="600" height="350"/>
+        <img src="assets/img/dalmatians-piano.jpg" alt="Roger" class="illustration">
+        <p class="center-italic">The bachelor life wasn't very glamorous for Pongo.</p>
       <p class="center-italic">He wanted his owner, Roger Radcliffe, to have someone special.</p>
           
-        <textarea rows="10" cols="90" placeholder="Write something here..." style="margin-top: 20px; font-family: 'Newsreader', Arial, Helvetica, sans-serif; font-size: 16px; border-radius: 5px; border: 1px solid #ccc; padding: 10px;">
+        <textarea rows="10" cols="90" placeholder="Write something here..." style="margin-top: 20px; font-family: 'Newsreader', Arial, Helvetica, sans-serif; font-size: 20px; 
+        border-radius: 5px; border: 1px solid #ccc; padding: 10px;">
           Pongo: It was plain to see that my old pet needed someone. But if it were left up to Roger, we'd be bachelors forever. He was married to his work.
             Writing songs. Songs about romance, of all things, something he knew absolutely nothing about.
             Oh, he's intelligent enough, as humans go. And I think you could say that Roger is a rather handsome animal in his way.
             I could see no reason why my pet didn't deserve an attractive mate.
         </textarea>
-        <img src="assets/img/dalmatians-pongo05.jpg" alt="Pongo" class="scaleA" width="600" height="350"/>
-        <img src="assets/img/dalmatians-piano.jpg" alt="Roger" class="illustration">
-        
         <nav aria-label="Page navigation example">
           <ul class="pagination">
            <li class="page-item"><a class="page-link" href="index.html">Previous</a></li>
